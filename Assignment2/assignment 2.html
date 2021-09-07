@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<title>send Email</title>
+</head>
+ 
+<body>
+	<main>
+		<div>
+		
+		
+			
+				<h2 id="heading">  </h2>
+				<p id="hto"> </p>
+                                <p id="dateTime"></p>
+				<p id="mssg"> </p>
+
+		<div id="hide">
+
+			
+		
+
+				<label for="Reciver">To: </label>
+			
+				<input type="text" id="Reciver" required>
+					<br>
+				<label for="sub">Subject:  </label>
+				
+				<input type="text" id="sub" required>
+						<br>
+			<span id="repeat">
+				<lable for=Attach>Attachment: </label>
+				<input type="file" id="Attach" >
+					<br>
+				<button type="button" id="btnattach" onclick="attachments()">Add More Attachment</Button>
+			</span>		<br>
+				
+				<label for="msg">Message: </lable>
+				<input type="text" id="msg" required>
+					<br>
+				
+		
+			</div>
+
+		</div>
+	
+			
+	</main>	
+<p id="dateTime"></p>
+<button type="button" id="btnsend" onclick="send()">Send</Button>		
+<script src="Assignment 2.js">
+
+</script>
+</body>
+</html>
